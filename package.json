@@ -1,0 +1,21 @@
+{
+  "name": "game-of-life-node",
+  "version": "1.0.0",
+  "description": "Game of life written in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://liamIlan@bitbucket.org/liamIlan/game-of-life.git"
+  },
+  "author": "liam ilan",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/liamIlan/game-of-life#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
