@@ -1,12 +1,12 @@
 let map = new Array(22).fill(0).map(() => new Array(20).fill(0));
 
-map[10][10] = 1;
-map[10][11] = 1;
-map[12][11] = 1;
-map[11][13] = 1;
-map[10][14] = 1;
-map[10][15] = 1;
-map[10][16] = 1;
+map.forEach((row, y) => {
+  map.forEach((part, x) => {
+    if (x !== 0 && y !== 0 && x !== row.length - 1 && y !== map.length - 1) {
+      map[y][x] = Math.round(Math.random());
+    }
+  });
+});
 
 function evolve(input) {
   const newMap = new Array(22).fill(0).map(() => new Array(20).fill(0));
