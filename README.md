@@ -23,7 +23,7 @@ This is an implementation of the game of life in node.
 To run the game, first clone this repo using
 
 ```bash
-git clone https://liamIlan@bitbucket.org/liamIlan/game-of-life-node.git
+git clone https://liamilan@bitbucket.org/liamilan/game-of-life-node.git
 ```
 
 
