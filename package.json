@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://liamIlan@bitbucket.org/liamIlan/game-of-life.git"
+    "url": "https://liamilan@bitbucket.org/liamilan/game-of-life-node.git"
   },
   "author": "liam ilan",
   "license": "ISC",
